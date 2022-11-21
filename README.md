@@ -1,5 +1,7 @@
 # Instalação e configuração do Servidor Samba
 
+`Desenvolvido por: Caroline Bento, Evaldo Benevenuto e Cristóvão Wesley, da turma de 4° semestre em Tecnologia em Redes de Computadores`
+
 Este material tem a finalidade de mostrar como é feita a instalação e configuração do servidor Samba, que serve para a transferência de arquivos entre diferentes sistemas, inclusive, entre sistemas Linux e Windows.
 
 **Observações:**
