@@ -61,9 +61,10 @@ Depois de serem criados os grupos e os usuários, é necessário estabelecer a r
 É necessário mudar as permissões dos diretórios, para que as pessoas certas tenham acesso às informações certas.
 
 Para fazer isso, deve-se utilizar os seguintes comandos:
-*`chmod 770 /home/Arquivos/Estudantes`
 
-*`chmod 770 /home/Arquivos/Professores`
+* `chmod 770 /home/Arquivos/Estudantes`
+
+* `chmod 770 /home/Arquivos/Professores`
 
 **Observações:** 770 indica que o arquivo dá todas as permissões para o SuperUser e para o grupo, mas nenhuma permissão para outros
 
