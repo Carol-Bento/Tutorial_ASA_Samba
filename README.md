@@ -33,8 +33,8 @@ Então, primeiramente, para criar os usuários, é necessário utilizar os segui
 **Observações:** `--disabled-login` e `--no-create-home` são parâmetros que passamos na criação dos usuários, para dizer que o login está desabilitado (no primeiro parâmetro), e para dizer para não criar uma pasta para esse usuário no diretório `\home`
 Posteriormente, é necessário criar os dois grupos (alunos e professores), para isso:
 
-*`addgroup alunos`
-*`addgroup professores`
+* `addgroup alunos`
+* `addgroup professores`
 
 Depois de serem criados os grupos e os usuários, é necessário estabelecer a relação entre os dois, através dos comandos:
 
