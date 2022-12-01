@@ -38,9 +38,9 @@ Posteriormente, é necessário criar os dois grupos (alunos e professores), para
 
 Depois de serem criados os grupos e os usuários, é necessário estabelecer a relação entre os dois, através dos comandos:
 
-*`adduser aluno1 alunos`
+* `adduser aluno1 alunos`
 
-*`adduser professor1 professores`
+* `adduser professor1 professores`
 
 É necessário também fazer a modificação dos grupos que terão acesso às pastas de arquivos, para isso:
 * Mude seu diretório e vá para `/home/Arquivos`, com o comando:
@@ -130,10 +130,10 @@ Posteriormente, **para salvar tudo**, é só apertar a tecla `ESC` e digitar `:w
 * `[arquivos]` é o identificador da pasta de arquivos que será compartilhada
 
 Depois de finalizada a configuração, reinicialize o serviço, com o comando: 
-* `service smdb restart`
+* `service smbd restart`
 
 Posteriormente, verifique se o serviço está funcionando corretamente, com o comando:
-* `service smdb status`
+* `service smbd status`
 
 
 ## Sexto passo: Conectando um cliente Windows com o Servidor Samba
